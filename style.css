@@ -1,16 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+:root {
+    font-family: "Open Sans", serif;
+    line-height: 150%;
+    color: #1B1B1B;
+}
+
+body {
+    padding: 0 80px;
+    background-color: #F5F4F0;
+}
+
+img {
+    border-radius: 28px;
+    width: 100%;
+    object-fit: cover
+}
+
+main {
+    padding: 80px 0;
+}
+
+section + section {
+    margin-top: 80px;
+}
+
+#Next-Trip h1 {
+    margin-bottom: 40px;
+}
+
+#Next-Trip p {
+    margin-top: 24px;
+    text-align: center;
+    font-style: italic;
+    color: #333333;
+}
+
+
 .divider {
     width: 100%;
     height: 1px;
     margin: 36px 0;
     background-color: #d9d9d9;
+    margin: 64px 0;
   }
+    
+#History-Lovers h1 {
+    margin-bottom: 8px;
+}
+
+#History-Lovers p {
+    margin-bottom: 61px;
+}
+
+
+h3 {
+    color: #E1624F;
+}
   
   footer {
     color: #333333;
     text-align: center;
+    padding-top: 80px;
     padding-bottom: 48px;
 }
 
 footer img {
+    width: 16px;
+    height: auto;
     vertical-align: middle;
 }
